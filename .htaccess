@@ -1,0 +1,4 @@
+AddDefaultCharset utf-8
+AddType 'application/json' .json
+AddType 'application/javascript' .jsonp
+Options -Indexes

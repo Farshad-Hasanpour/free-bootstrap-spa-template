@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="قالب رایگان راست به چپ html ساخته شده با استفاده از bootstrap">
+    <meta name="keywords" content="قالب, رایگان, راست به چپ, قالب رایگان, html, rtl, template, free, bootstrap, jquery">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <title>قالب رایگان</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+
+    <!-- Go to Top Button -->
+    <div class="go-to-top" id="go-top-button" title="برو به بالا">
+        <i class="fas fa-arrow-up"></i>
+    </div>    
+
+    <!-- Navbar for tablet and mobile instead of sidebar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="sidebar-replacement">
+        <a class="navbar-brand" href="./index.html">
+            <img src="image/sample-logo.png" alt="قالب رایگان" title="" id="top-navbar-brand">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" data-page="plants-page1.html" id="top-plants-link">گیاهان</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="top-services-link" data-page="services.html">خدمات</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="top-about-link" data-page="about.html">درباره&nbsp;ما</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link contact-us-button" href="#contact-us" id="top-contact-us-button">ارتباط&nbsp;با&nbsp;ما</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container-fluid" id="container">
+
+        <div class="row">
+            <div class="col-10 cards-container" id="content">
+                
+                <div class="card-deck page1" style="margin-top: 20px;">
+                    <div class="card" id="plant1">
+                        <img class="card-img-top loading" src="image/plant/search/1-achillea-sp.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='1'>
+                                    بومادران گل زرد
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    زرد
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    اردیبهشت-&nbsp;خرداد
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant2">
+                        <img class="card-img-top loading" src="image/plant/search/2-red-achillea-millefolium.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='2'>
+                                    بومادران گل قرمز
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    قرمز
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    اردیبهشت-&nbsp;شهریور
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant3">
+                        <img class="card-img-top loading" src="image/plant/search/3-alyssum-maritimum.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='3'>
+                                    آلیسوم (عسلی)
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    متنوع
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    بهار
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                </div>
+
+                <div class="card-deck page1">
+                    <div class="card" id="plant4">
+                        <img class="card-img-top loading" src="image/plant/search/4-anthemis-tinctoria.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='4'>
+                                    بابونه
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    سفید
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    بهار&nbsp;و&nbsp;تابستان
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant5">
+                        <img class="card-img-top loading" src="image/plant/search/5-ajuga-reptans.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='5'>
+                                    آجوگا ژاپنی
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    بنفش
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    بهار
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant6">
+                        <img class="card-img-top loading" src="image/plant/search/6-carpobrotus-acinaciformis.JPG" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='6'>
+                                    عقربی
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    بنفش
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    بهار
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                </div>
+
+                <div class="card-deck page1">
+                    <div class="card" id="plant7">
+                        <img class="card-img-top loading" src="image/plant/search/7-ceratium-tomentosum.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='7'>
+                                    سراستیوم(برفی)
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    سفید
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    اواخر&nbsp;بهار&nbsp;و&nbsp;تابستان
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant8">
+                        <img class="card-img-top loading" src="image/plant/search/8-chrysanthemum-maximum.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='8'>
+                                    مارگریت
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    غالبا&nbsp;سفید
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    بهار&nbsp;و&nbsp;تابستان
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant9">
+                        <img class="card-img-top loading" src="image/plant/search/9-chrysanthemum-sp.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='9'>
+                                    داوودی (دربیست&nbsp;رنگ)
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    متنوع
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    اواخر&nbsp;تابستان&nbsp;و&nbsp;پاییز
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                </div>
+
+                <div class="card-deck page1">
+                    <div class="card" id="plant10">
+                        <img class="card-img-top loading" src="image/plant/search/10-cheiranthus-allionii.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='10'>
+                                    شب&nbsp;بو زرد
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    زرد
+                                </div>
+                                <div class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    پاییز
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant11">
+                        <img class="card-img-top loading" src="image/plant/search/11-coreopsis-tinctoria.jpg" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='11'>
+                                    کروپسیس قرمز
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    قرمز
+                                </div>
+                                <div  class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    تابستان
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                    <div class="card" id="plant12">
+                        <img class="card-img-top loading" src="image/plant/search/12-coreopsis-grandiflora.JPG" alt="تصویر گیاه">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#details" title="توضیحات بیشتر" data-plant-id='12'>
+                                    کروپسیس زرد
+                                </a>
+                            </h5> <!-- End of Card Title -->
+                            <div class="card-text">
+
+                                <div class="text-first-line">
+                                    <span class="bold">رنگ گل:</span>
+                                    زرد
+                                </div>
+                                <div  class="text-second-line">
+                                    <span class="bold">زمان گل دهی:</span>
+                                    بهار&nbsp;و&nbsp;تابستان
+                                </div>
+
+                            </div> <!-- End of Card Text -->
+                        </div> <!-- End of Card Body -->
+                    </div>
+                </div>
+
+                <div class="row" id="more" dir="ltr">
+                    <button id="more-button" class="col-xs-12 offset-sm-3 col-sm-6 btn btn-primary btn-lg">بارگذاری گیاهان بیشتر</button>
+                </div>
+            </div>
+            
+            <div class="col-md-2 aside-container">
+                <aside class="aside">
+                    <a class="navbar-brand" href="./index.html">
+                        <img class="brand" src="image/sample-logo.png" alt="قالب رایگان">
+                    </a>
+                    <ul class="nav flex-column nav-fill nav-pills" style="text-align: middle; padding-right: 0;" id="slider-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-page="plants-page1.html" id="plants-link">گیاهان</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-page="services.html" id="services-link">خدمات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-page="about.html" id="about-link">درباره&nbsp;ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link contact-us-button" href="#contact-us" id="side-contact-us-button">ارتباط&nbsp;با&nbsp;ما</a>
+                        </li>
+                    </ul>
+
+                    <div id="social" class="info-detail" style="text-align: center;direction: middle">
+                        <br>
+                        <a href="https://t.me/farshad_hasanpour" target="_blank" rel="noopener" title="ما را در تلگرام دنبال کنید.">
+                            <i class="fab fa-telegram"></i>
+                        </a> <!-- First Social -->
+                        <a href="https://www.instagram.com/farshad_hasanpour96/" target="_blank" rel="noopener" title="ما را در اینستاگرام دنبال کنید.">
+                            <i class="fab fa-instagram"></i>
+                        </a> <!-- Second Social -->
+                    </div>
+
+                    <div id="copyright" class="text-muted">Copyright&nbsp;&copy;&nbsp;<span id="this-year">N/A</span> <a href="#your-brand" title="برند شما" target="_blank" rel="noopener">Brand</a>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+        
+        <footer class="row" id="contact-us">
+            <form class="col-lg-6" id="contact-us">
+                <h3>ارتباط با ما</h3>
+                <div class="form-group">
+                    <label for="name">نام:</label>
+                    <input type="text" class="form-control" id="name" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="email">ایمیل:</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@example.com">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="phone">شماره تلفن:</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="" aria-describedby="phoneHelp">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="message">پیام شما</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success btn-lg" value="submit">ارسال</button>
+            </form>
+
+            <div class="col-lg-5 info">
+                <div id="phone" class="info-detail">
+                    <h4>اطلاعات تماس</h4>
+                    <p style="direction: ltr !important; margin-bottom: 5px;">
+                        <a href="tel:+981111111111" title="برای تماس کلیک کنید">
+                            +98&nbsp;111&nbsp;111&nbsp;1111
+                        </a>
+                    </p> <!-- First Tel -->
+                     
+                </div>
+
+                <div id="address" class="info-detail">
+                    <h4>آدرس</h4>
+                    <p style="direction: ltr !important;">
+                        کشور، شهر، خیابان، کوچه، پلاک
+                    </p> <!-- First Address -->
+                </div>
+
+                <div id="email" class="info-detail">
+                    <h4>پست الکترونیکی</h4>
+                    <p style="direction: ltr !important; margin-bottom: 5px;">
+                        <a href="mailto:farshad.hasanpour96@gmail.com" title="برای ارسال ایمیل کلیک کنید" id="mail-address">
+                        farshad.hasanpour96@gmail.com
+                        </a>
+                    </p> <!-- First Email -->
+
+                </div>
+
+                <div id="social" class="info-detail">
+                    <h4>شبکه های اجتماعی</h4>
+                        <a href="https://t.me/farshad_hasanpour" target="_blank" rel="noopener" title="ما را در تلگرام دنبال کنید.">
+                            <i class="fab fa-telegram"></i>
+                        </a> <!-- First Social -->
+                        
+                        <a href="https://www.instagram.com/farshad_hasanpour96/" target="_blank" rel="noopener" title="ما را در اینستاگرام دنبال کنید.">
+                            <i class="fab fa-instagram"></i>
+                        </a> <!-- Second Social -->
+                </div>
+            </div>            
+        </footer>
+    </main>
+    
+    <!-- Jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstra -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- plant details JSON-->
+    <script src="plant-details.jsonp"></script> 
+    <!-- Main -->
+    <script src="js/main.js"></script>
+</body>
+</html>

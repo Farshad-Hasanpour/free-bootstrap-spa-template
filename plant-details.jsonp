@@ -1,0 +1,509 @@
+var plants = {
+"plant1": {
+    "image_source": "image/plant/search/1-achillea-sp.jpg",
+    "prev": null,
+    "next": 2,
+    "persian_name": "بومادران گل زرد",
+    "scientific_name": "Achillea Sp",
+    "type_of_cover": "پرچین طولی یا حجمی",
+    "taking_care": "هرس سالیانه و حذف شاخه&nbsp;های گل دهنده (فرمدهی)",
+    "application": "ایجاد پرچین طولی و حجمی در فضای سبز پارک&nbsp;ها، میادین، لچکی ها، بلوارهای کم عرض"
+},
+
+"plant2": {
+    "image_source": "image/plant/search/2-red-achillea-millefolium.jpg",
+    "prev": 1,
+    "next": 3,
+    "persian_name": "بومادران گل قرمز",
+    "scientific_name": "Achillea Millefolium",
+    "type_of_cover": "پوشش گلدار، پوشش سبز فوق العاده زیبا با حذف شاخه های گل دهنده",
+    "taking_care": "هرس سالیانه پس از گلدهی، حذف شاخه های گلدهنده",
+    "application": "پوشش گلدار و سبز در فضای سبز پارک ها، میادین، لچکی ها، پوشش سبز در سطوح شیب دار"
+},
+
+"plant3": {
+    "image_source": "image/plant/search/3-alyssum-maritimum.jpg",
+    "prev": 2,
+    "next": 4,
+    "persian_name": "آلیسوم(عسلی)",
+    "scientific_name": "Alyssum Maritimum",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "ایجاد بستر سبک و غنی، کلش پاییزه جهت رویش مجدد در بهار",
+    "application": "پوشش گلدار در فضای سبز پارک ها، میادین، لچکی ها،پوشش سبز در سطوح شیب دار"
+},
+
+"plant4": {
+    "image_source": "image/plant/search/4-anthemis-tinctoria.jpg",
+    "prev": 3,
+    "next": 5,
+    "persian_name": "بابونه",
+    "scientific_name": "Anthemis Tinctoria",
+    "type_of_cover": "پوشش گلدار، پوشش سبز فوق العاده زیبا با حذف شاخه های گل دهنده",
+    "taking_care": "هرس سالیانه پس از گلدهی، حذف شاخه های گلدهنده",
+    "application": "پوشش گلدار و سبز در فضای سبز پارک ها، میادین، لچکی ها، خصوصا میادین بزرگ، پوشش سبز در سطوح شیب دار"
+},
+
+"plant5": {
+    "image_source": "image/plant/search/5-ajuga-reptans.jpg",
+    "prev": 4,
+    "next": 6,
+    "persian_name": "آجوگا ژاپنی",
+    "scientific_name": "Ajuga Reptans",
+    "type_of_cover": "پوشش سبز ابلق و گلدار",
+    "taking_care": "حذف شاخه های گلدهنده پس از گلدهی",
+    "application": "سطوح شیب دار، باغ های صخره ای"
+},
+
+"plant6": {
+    "image_source": "image/plant/search/6-carpobrotus-acinaciformis.JPG",
+    "prev": 5,
+    "next": 7,
+    "persian_name": "عقربی",
+    "scientific_name": "Carpobrotus Acinaciformis",
+    "type_of_cover": "پوشش سبز با گلدهی فوق العاده زیبا",
+    "taking_care": "مراقبت در فصول سرد (مالچ پاشی)",
+    "application": "باکس های گل، سطوح شیب دار، باغ های صخره ای"
+},
+
+"plant7": {
+    "image_source": "image/plant/search/7-ceratium-tomentosum.jpg",
+    "prev": 6,
+    "next": 8,
+    "persian_name": "سراستیوم(برفی)",
+    "scientific_name": "Ceratium Tomentosum",
+    "type_of_cover": "پوشش گلدار، پوشش سبز نقره ای پس از گلدهی",
+    "taking_care": "هرس سالیانه پس از گلدهی (پوشش سبز)",
+    "application": "پوشش گلدار و سبز در سطوح شیب دار، باغ های صخره ای، باکس های گل"
+},
+
+"plant8": {
+    "image_source": "image/plant/search/8-chrysanthemum-maximum.jpg",
+    "prev": 7,
+    "next": 9,
+    "persian_name": "مارگریت",
+    "scientific_name": "Chrysanthemum Maximum",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "حذف شاخه های گلدهنده در بهار پس از گلدهی",
+    "application": "سطوح شیب دار، باغ های صخره ای"
+},
+
+"plant9": {
+    "image_source": "image/plant/search/9-chrysanthemum-sp.jpg",
+    "prev": 8,
+    "next": 10,
+    "persian_name": "داوودی(دربیست رنگ)",
+    "scientific_name": "Chrysanthemum Sp",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "حذف شاخه های گل دهنده پس از گلدهی",
+    "application": "پوشش گلدار در فضای سبز پارک ها، میادین،لچکی ها"
+},
+
+"plant10": {
+    "image_source": "image/plant/search/10-cheiranthus-allionii.jpg",
+    "prev": 9,
+    "next": 11,
+    "persian_name": "شب بو زرد",
+    "scientific_name": "Cheiranthus Allionii",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "ندارد",
+    "application": ""
+},
+
+"plant11": {
+    "image_source": "image/plant/search/11-coreopsis-tinctoria.jpg",
+    "prev": 10,
+    "next": 12,
+    "persian_name": "کروپسیس قرمز",
+    "scientific_name": "Coreopsis Tinctoria",
+    "type_of_cover": "پوشش گلدار با زمان گلدهی طولانی",
+    "taking_care": "حذف شاخه های گلدهنده و هرس بوته در پاییز",
+    "application": "پوشش گلدار در باغ های صخره ای، باکس های گل"
+},
+
+"plant12": {
+    "image_source": "image/plant/search/12-coreopsis-grandiflora.JPG",
+    "prev": 11,
+    "next": 13,
+    "persian_name": "کروپسیس زرد",
+    "scientific_name": "Coreopsis Grandiflora",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "حذف شاخه های گلدهنده پس از گلدهی",
+    "application": "پوشش گلدار در پارک ها، میادین، لچکی ها"
+},
+
+"plant13": {
+    "image_source": "image/plant/search/13-cynodon-dactylon.jpg",
+    "prev": 12,
+    "next": 14,
+    "persian_name": "برمودا گراس",
+    "scientific_name": "Cynodon Dactylon",
+    "type_of_cover": "پوشش سبز",
+    "taking_care": "مالچ پاشی با کود دامی در پاییز",
+    "application": "پوشش سبز (نوعی چمن) در مناطق کم آب، میادین فوتبال به دلیل پاخوری"
+},
+
+"plant14": {
+    "image_source": "image/plant/search/14-dichondra-repens.jpg",
+    "prev": 13,
+    "next": 15,
+    "persian_name": "شبدر آمریکایی",
+    "scientific_name": "Dichondra Repens",
+    "type_of_cover": "پوشش سبز",
+    "taking_care": "مالچ پاشی در پاییز",
+    "application": "پوشش سبز در باغهای صخره ای، لچکی ها، میادین کوچک"
+},
+
+"plant15": {
+    "image_source": "image/plant/search/15-dianthus-deltoids.JPG",
+    "prev": 14,
+    "next": 16,
+    "persian_name": "میخک رونده",
+    "scientific_name": "Dianthus Deltoids",
+    "type_of_cover": "پوشش گلدار، پوشش سبز پس از گلدهی و حذف شاخه های گل دهنده",
+    "taking_care": "حذف شاخه های گل دهنده پس از گلدهی (پوشش سبز)",
+    "application": "پوشش گلدار در فضای سبز پارک ها، لچکی ها و باغ های صخره ای، پوشش سبز در سطوح شیب دار"
+},
+
+"plant16": {
+    "image_source": "image/plant/search/16-festuca-glauca.jpg",
+    "prev": 15,
+    "next": 17,
+    "persian_name": "فستوک زینتی(نقرهای)",
+    "scientific_name": "Festuca Glauca",
+    "type_of_cover": "پرچین طولی",
+    "taking_care": "حذف شاخه های بذر دهنده",
+    "application": "ایجاد پرچین کوتاه در فضای سبز پارک ها، باغ های صخره ای"
+},
+
+"plant17": {
+    "image_source": "image/plant/search/17-festuca-ovina.JPG",
+    "prev": 16,
+    "next": 18,
+    "persian_name": "فستوک زینتی(سبز)",
+    "scientific_name": "Festuca Ovina",
+    "type_of_cover": "پرچین طولی",
+    "taking_care": "حذف شاخه های بذر دهنده",
+    "application": "ایجاد پرچین کوتاه در فضای سبز پارک ها، باغ های صخره ای"
+},
+
+"plant18": {
+    "image_source": "image/plant/search/18-fragaria-vesca.jpg",
+    "prev": 17,
+    "next": 19,
+    "persian_name": "توت فرنگی",
+    "scientific_name": "Fragaria Vesca",
+    "type_of_cover": "پوشش سبز (گل و میوه زینتی)",
+    "taking_care": "ندارد",
+    "application": "پوشش سبز در باغ های صخره ای و سطوح شیب دار"
+},
+
+"plant19": {
+    "image_source": "image/plant/search/19-frankenia-thymifolia.jpg",
+    "prev": 18,
+    "next": 20,
+    "persian_name": "فرانکنیا(شبنمی-چمن کبیر)",
+    "scientific_name": "Frankenia Thymifolia",
+    "type_of_cover": "پوشش سبز",
+    "taking_care": "هرس سالیانه در صورت نیاز (فشردگی)",
+    "application": "پوشش سبز در بزرگراه ها، لچکی ها، میادین"
+},
+
+"plant20": {
+    "image_source": "image/plant/search/20-glaucium-flavum.jpg",
+    "prev": 19,
+    "next": 21,
+    "persian_name": "شقایق شاخدار زرد",
+    "scientific_name": "Glaucium Flavum",
+    "type_of_cover": "پوشش گلدار، پوشش سبز پس از پلدهی و حذف شاخه های گل دهنده",
+    "taking_care": "حذف شاخه های گل دهنده",
+    "application": "پوشش گلدار و سبز در باغ های صخره ای، پوشش سبز در سطوح شیب دار"
+},
+
+"plant21": {
+    "image_source": "image/plant/search/21-glechoma-hirsuta.jpg",
+    "prev": 20,
+    "next": 22,
+    "persian_name": "گلی کوما",
+    "scientific_name": "Glechoma Hirsuta",
+    "type_of_cover": "پوشش سبز و ابلق",
+    "taking_care": "هرس سالیانه و مالچ پاشی در فصول سرد",
+    "application": "پوشش سبز در سطوح شیب دار، باغ های صخره ای، لچکی ها و میادین کوچک"
+},
+
+"plant22": {
+    "image_source": "image/plant/search/22-gazania-rigens.jpg",
+    "prev": 21,
+    "next": 23,
+    "persian_name": "گازانیا",
+    "scientific_name": "Gazania Rigens",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "حذف شاخه های گلدهنده پس از گلدهی",
+    "application": "پوشش گلدار در باغ های صخره ای ، فضای سبز پارک ها، لچکی ها"
+},
+
+"plant23": {
+    "image_source": "image/plant/search/23-hemerocallis-fulva.JPG",
+    "prev": 22,
+    "next": 24,
+    "persian_name": "زنبق رشتی",
+    "scientific_name": "Hemerocallis Fulva",
+    "type_of_cover": "پوشش گلدار و سبز",
+    "taking_care": "حذف شاخه های گلدهنده پس از گلدهی",
+    "application": "پوشش گلدار در باغ های صخره ای، فضای سبز پارک ها، میادین کوچک"
+},
+
+"plant24": {
+    "image_source": "image/plant/search/24-hedera-helix.jpg",
+    "prev": 23,
+    "next": 25,
+    "persian_name": "پاپیتاب (عشقه)",
+    "scientific_name": "Hedera Helix",
+    "type_of_cover": "پوشش سبز",
+    "taking_care": "هرس دو یا سه سالانه و سپس مالچ پاشی",
+    "application": "پوشش سبز در لچکی ها، میادین کوچک، باغ های صخره ای"
+},
+
+"plant25": {
+    "image_source": "image/plant/search/25-lavandula-officinalis.jpg",
+    "prev": 24,
+    "next": 26,
+    "persian_name": "اسطوخطوس",
+    "scientific_name": "Lavandula Officinalis",
+    "type_of_cover": "پرچین طولی یا حجمی",
+    "taking_care": "هرس و فرم دهی سالیانه",
+    "application": "ایجاد پرچین طولی در فضای سبز پارک ها،باغ های صخره ای، لچکی ها"
+},
+
+"plant26": {
+    "image_source": "image/plant/search/26-lolium-sp.jpg",
+    "prev": 25,
+    "next": 27,
+    "persian_name": "یال اسبی",
+    "scientific_name": "Lolium Sp",
+    "type_of_cover": "پرچین طولی",
+    "taking_care": "نگهداری شاخه های بذردهنده به دلیل زیبایی",
+    "application": "ایجاد پرچین طولی در فضای سبز پارک ها، باغ های صخره ای"
+},
+
+"plant27": {
+    "image_source": "image/plant/search/27-lysimachia-nummularia.jpg",
+    "prev": 26,
+    "next": 28,
+    "persian_name": "لیزوماکیا",
+    "scientific_name": "Lysimachia Nummularia",
+    "type_of_cover": "پوشش سبز و زرد",
+    "taking_care": "مالچ پاشی در فصول خیلی سرد و گرم",
+    "application": "پوشش سبز و زرد در لچکی ها، میادین کوچک، با های صخره ای"
+},
+
+"plant28": {
+    "image_source": "image/plant/search/28-pelargonium-sp.jpg",
+    "prev": 27,
+    "next": 29,
+    "persian_name": "شمعدانی پیچ",
+    "scientific_name": "Pelargonium Sp",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "انتقال بوته ها به گلخانه در فصول سرد",
+    "application": "پوشش گلدار در لچکی ها، میادین کوچک، باکس های گل"
+},
+
+"plant29": {
+    "image_source": "image/plant/search/29-phalaris-arundinacea.jpg",
+    "prev": 28,
+    "next": 30,
+    "persian_name": "فالاریس(چمن ابلق)",
+    "scientific_name": "Phalaris Arundinacea",
+    "type_of_cover": "پرچین طولی",
+    "taking_care": "کاشت در محیط های سایه، مالچ پاشی، در فصول گرم با سبوس برنج",
+    "application": "ایجاد پرچین طولی در فضای سبز پارک ها، میادین کوچک، باغ های صخره ای"
+},
+
+"plant30": {
+    "image_source": "image/plant/search/30-potentilla-reptans.jpg",
+    "prev": 29,
+    "next": 31,
+    "persian_name": "پنج انگشت",
+    "scientific_name": "Potentilla Reptans",
+    "type_of_cover": "پوشش سبز",
+    "taking_care": "هرس سالیانه و مالچ پاشی",
+    "application": "پوشش سبز در بزرگراه ها، فضای سبز پارک ها، میادین بزرگ"
+},
+
+"plant31": {
+    "image_source": "image/plant/search/31-rudbeckia-hirta.JPG",
+    "prev": 30,
+    "next": 32,
+    "persian_name": "دودبکیا(کوکب کوبی)",
+    "scientific_name": "Rudbeckia Hirta",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "حذف شاخه های گل دهنده پس از گلدهی و مالچ پاشی در پاییز",
+    "application": "پوشش گلدار در فضای سبز پارک ها، میادین کوچک، باغ های صخره ای"
+},
+
+"plant32": {
+    "image_source": "image/plant/search/32-rosmarinus-officinalis.jpg",
+    "prev": 31,
+    "next": 33,
+    "persian_name": "رزماری",
+    "scientific_name": "Rosmarinus Officinalis",
+    "type_of_cover": "پرچین طولی یا حجمی",
+    "taking_care": "هرس و فرم دهی سالیانه",
+    "application": "ایجاد پرچین طولی در فضای سبز پارک ها، میادین کوچک، لچکی ها، باغ های صخره ای"
+},
+
+"plant33": {
+    "image_source": "image/plant/search/33-sagina-subulata.jpg",
+    "prev": 32,
+    "next": 34,
+    "persian_name": "ساجینا",
+    "scientific_name": "Sagina Subulata",
+    "type_of_cover": "پوشش سبز کپه ای",
+    "taking_care": "ایجاد زهکشی مناسب و آبیاری منظم",
+    "application": "ایجاد پوشش سبز در لابلای سنگ فرش ها، باغ های صخره ای"
+},
+
+"plant34": {
+    "image_source": "image/plant/search/34-salvia-officinalis.jpg",
+    "prev": 33,
+    "next": 35,
+    "persian_name": "سالویا(مریم گلی)",
+    "scientific_name": "Salvia Officinalis",
+    "type_of_cover": "پرچین طولی یا حجمی",
+    "taking_care": "هرس و فرم دهی سالیانه",
+    "application": "ایجاد پرچین طولی در فضای سبز پارک ها، لچکی ها، و باغ های صخره ای"
+},
+
+"plant35": {
+    "image_source": "image/plant/search/35-sanvitalia-procumbens.jpg",
+    "prev": 34,
+    "next": 36,
+    "persian_name": "آهارونده",
+    "scientific_name": "Sanvitalia Procumbens",
+    "type_of_cover": "پوشش گلدار",
+    "taking_care": "هرش شدید، مالچ پاشی و کلش در پاییز",
+    "application": "ایجاد پوشش گلدار در سطوح شیب دار، باغ های صخره ای، میادین کوچک"
+},
+
+"plant36": {
+    "image_source": "image/plant/search/36-sasa-pygmaea.jpg",
+    "prev": 35,
+    "next": 37,
+    "persian_name": "ساسا",
+    "scientific_name": "Sasa Pygmaea",
+    "type_of_cover": "پوشش سبز ابلق",
+    "taking_care": "هرس سالیانه در پاییز و مالچ پاشی",
+    "application": "پوشش سبز ابلق در لچکی ها، میادین کوچک، باغ های صخره ای"
+},
+
+"plant37": {
+    "image_source": "image/plant/search/37-sedum-sp.jpg",
+    "prev": 36,
+    "next": 38,
+    "persian_name": "سدم قرمز",
+    "scientific_name": "Sedum Sp",
+    "type_of_cover": "پوشش سبز ابلق",
+    "taking_care": "ندارد",
+    "application": "پوشش سبز ابلق در سطوح شیب دار، باغ های صخره ای"
+},
+
+"plant38": {
+    "image_source": "image/plant/search/38-sedum-spectabile.jpg",
+    "prev": 37,
+    "next": 39,
+    "persian_name": "سدم قاشقی",
+    "scientific_name": "Sedum Spectabile",
+    "type_of_cover": "پرچین طولی یا حجمی",
+    "taking_care": "هرس سالیانه (حذف شاخه های گلدهنده پس از گلدیه)",
+    "application": "پوشش سبز و گلدار در باغ های صخره ای"
+},
+
+"plant39": {
+    "image_source": "image/plant/search/39-sedum-acre.jpg",
+    "prev": 38,
+    "next": 40,
+    "persian_name": "سدم گرزی",
+    "scientific_name": "Sedum Acre",
+    "type_of_cover": "پوشش سبز",
+    "taking_care": "ندارد",
+    "application": "پوشش سبز در سطوح شیب دار، پارک ها، باغ های صخره ای، باکس های گل"
+},
+
+"plant40": {
+    "image_source": "image/plant/search/40-sedum-sp.jpg",
+    "prev": 39,
+    "next": 41,
+    "persian_name": "سدم خوشه ای",
+    "scientific_name": "Sedum Sp",
+    "type_of_cover": "پوشش سبز و قرمز (با توجه به فصل)",
+    "taking_care": "ندارد",
+    "application": "پوشش سبز و قرمز در سطوح شیب دار، باغ های صخره ای، باکس های گل"
+},
+
+"plant41": {
+    "image_source": "image/plant/search/41-senecio-cineraria.JPG",
+    "prev": 40,
+    "next": 42,
+    "persian_name": "برگ نقره ای (آردی)",
+    "scientific_name": "Senecio Cineraria",
+    "type_of_cover": "پرچین طولی یا حجمی",
+    "taking_care": "هرس و فرم دهی سالیانه",
+    "application": "ایجاد پرچین طولی در فضای سبز پارک ها، میادین کوچک"
+},
+
+"plant42": {
+    "image_source": "image/plant/search/42-trifolium-repens.jpg",
+    "prev": 41,
+    "next": 43,
+    "persian_name": "شبدر سفید",
+    "scientific_name": "Trifolium Repens",
+    "type_of_cover": "پوشش سبز و گلدار",
+    "taking_care": "هرس سالیانه",
+    "application": "پوشش سبز و گلدار در پارک ها، میادین بزرگ"
+},
+
+"plant43": {
+    "image_source": "image/plant/search/43-thymus-serpyllum.jpg",
+    "prev": 42,
+    "next": 44,
+    "persian_name": "آویشن خزنده",
+    "scientific_name": "Thymus Serpyllum",
+    "type_of_cover": "آویشن خزنده",
+    "taking_care": "مالچ پاشی به مقدار کم",
+    "application": "پوشش سبز در سطوح شیب دار، باغ های صخره ای، باکس های گل"
+},
+
+"plant44": {
+    "image_source": "image/plant/search/44-vinca-major.jpg",
+    "prev": 43,
+    "next": 45,
+    "persian_name": "وینکا (تلگرافی)",
+    "scientific_name": "Vinca Major",
+    "type_of_cover": "پوشش سبز و گلدار",
+    "taking_care": "هرس سالیانه و مالچ پاشی",
+    "application": "پوشش سبز در سطوح شیب دار، باغ های صخره ای، باکس های گل"
+},
+
+"plant45": {
+    "image_source": "image/plant/search/45-oenothera.jpg",
+    "prev": 44,
+    "next": 46,
+    "persian_name": "مغربی",
+    "scientific_name": "Oenothera",
+    "type_of_cover": "",
+    "taking_care": "",
+    "application": ""
+},
+
+"plant46": {
+    "image_source": "image/plant/search/46-phyla-nodiflora.jpg",
+    "prev": 45,
+    "next": null,
+    "persian_name": "فیلا",
+    "scientific_name": "Phyla Nodiflora",
+    "type_of_cover": "",
+    "taking_care": "",
+    "application": ""
+},
+
+
+};

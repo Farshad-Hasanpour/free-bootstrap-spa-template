@@ -1,0 +1,26 @@
+{
+  "short_name": "قالب رایگان",
+  "name": "قالب رایگان",
+  "icons": [
+    {
+      "src": "images/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logo-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": "https://free-template.farshadhp.ir/",
+  "background_color": " #1cb52d",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": " #1cb52d"
+}
