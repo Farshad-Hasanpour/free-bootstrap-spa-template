@@ -47,7 +47,7 @@ $(document).ready(function(){
 	$('#go-top-button').on('click', scrollToTop);
 
 	$('#content').on('click', '.card-title a, #next-plant, #prev-plant', function(){
-		// Number 0 makes scroll to top when page is reloaded or ajax is called
+		// Number 0 makes scroll to top when page is reloaded or page is called
 		history.replaceState({}, 'قالب رایگان', '?number=0');
 		
 		var plantId = $(this).attr('data-plant-id');
@@ -64,7 +64,7 @@ $(document).ready(function(){
 		var taking_care = plants[plantIndex]["taking_care"] || "";
 		var application = plants[plantIndex]["application"] || "";
 
-		$.get('ajax/plant-details.html', function(data){
+		$.get('pages/plant-details.html', function(data){
   			// Remove all children of #content except #more button
   			$("#content > *:not(#more)").remove();
   			$('#content #more').css({display: 'none'});
@@ -96,7 +96,7 @@ $(document).ready(function(){
 	});
 
 	$('#content').on('click', '#plant-list', function(){
-		$.get( "ajax/plants-page1.html", function(data) {
+		$.get( "pages/plants-page1.html", function(data) {
   			// Button will be hidden instead of removed because there is an event listener for this button
   			// decide whether Load More Button should be displayed or not
 
@@ -148,8 +148,7 @@ $(document).ready(function(){
 			return 'page not found';
 		}
 		
-		// Get plants page using ajax
-		$.get('ajax/plants-' + pageClass+'.html', function(data){
+		$.get('pages/plants-' + pageClass+'.html', function(data){
 			$(data).insertBefore("#content #more");
 			$('.' + pageClass).css({display:"flex"});
 			$('.' + pageClass).animate({opacity: '1'}, 1000);
@@ -234,7 +233,7 @@ $(document).ready(function(){
 		}
 
 		// Get and Set Content
-		$.get( "ajax/" + pageName, function(data) {
+		$.get( "pages/" + pageName, function(data) {
   			// Remove all children of #content except #more button
   			$("#content > :not(#more)").remove();
   			
