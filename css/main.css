@@ -42,18 +42,18 @@ aside .brand{
 
 .social i{
 	margin-left: 5px;
-	font-size: 30px;
+	font-size: 24px;
 }
 
 .social i.fa-telegram{
 	color:#22B8CF;
 }
-
 .social i.fa-instagram{
 	color:#FF922B;
 }
-
-
+.social i.fa-github{
+	color:#fff;
+}
 
 .social a{
 	text-decoration: none;
