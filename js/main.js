@@ -189,7 +189,7 @@ $(document).ready(function(){
 		let $e_other; // second nav
 		let pageName;
 
-		if(redirect){
+		if(redirect === true){
 			$e = $("#" + getUrlParameter('page')+"-link");
 			$e_other = $("#top-" + getUrlParameter('page') + "-link");
 			pageName = $e.attr('data-page');
