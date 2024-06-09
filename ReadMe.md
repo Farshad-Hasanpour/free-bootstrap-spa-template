@@ -4,6 +4,6 @@ A free to use bootstrap right to left single page application template made with
 - Notice: This project is a million years old. I don't recommend it.
 ```
 ## Demo
-[free-template.farshadhp.ir](http://free-template.farshadhp.ir)
+[free-template.codewanted.net](http://free-template.codewanted.net)
 
 ![main page image](/demo.png?raw=true)
